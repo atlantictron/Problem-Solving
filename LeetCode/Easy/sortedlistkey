@@ -1,0 +1,19 @@
+SortedKeyList
+class sortedcontainers.SortedKeyList(iterable=None, key=<function identity>)[source]
+Bases: SortedList
+
+Sorted-key list is a subtype of sorted list.
+
+The sorted-key list maintains values in comparison order based on the result of a key function applied to every value.
+
+All the same methods that are available in SortedList are also available in SortedKeyList.
+
+Additional methods provided:
+
+SortedKeyList.key
+
+SortedKeyList.bisect_key_left()
+
+SortedKeyList.bisect_key_right()
+
+SortedKeyList.irange_key()
